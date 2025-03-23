@@ -1,0 +1,78 @@
+
+XPATH_LOCATORS = {
+
+	# Header
+	"header_logo": "/html/body/app-root/app-global-layout/div/div/app-header/header/div/div/div[1]/a",
+	"header_home": "/html/body/app-root/app-global-layout/div/div/app-header/header/div/div/div[1]/nav/a",
+	"header_about": "/html/body/app-root/app-global-layout/div/div/app-header/header/div/div/div[1]/nav/button[1]",
+	"header_contacts": "/html/body/app-root/app-global-layout/div/div/app-header/header/div/div/div[1]/nav/button[2]",
+	"header_guest_log_in": "//html/body/app-root/app-global-layout/div/div/app-header/header/div/div/div[2]/button[1]",
+	"header_btn_sign_in": "/html/body/app-root/app-global-layout/div/div/app-header/header/div/div/div[2]/button[2]",
+
+	# Section Hero
+	"sign_up": "body > app-root > app-global-layout > div > div > app-header > header > div > div > div.header_left.d-flex.align-items-center > a",
+
+	# Modal Window (Registration)
+	"modal_window_header": "/html/body/ngb-modal-window/div/div/app-signup-modal/div[1]",
+	"modal_title": "/html/body/ngb-modal-window/div/div/app-signup-modal/div[1]/h4",
+	"modal_close_btn": "/html/body/ngb-modal-window/div/div/app-signup-modal/div[1]/button",
+	"modal_name_input": "//*[@id='signupName']",
+	"modal_last_name_input": "//*[@id='signupLastName']",
+	"modal_email": "//*[@id='signupEmail']",
+	"modal_password": "//*[@id='signupPassword']",
+	"modal_re_enter_password": "//*[@id='signupRepeatPassword']",
+	"modal_sign_up_btn": "/html/body/ngb-modal-window/div/div/app-signup-modal/div[3]/button",
+
+	# Contacts
+	"contacts_header": "//*[@id='contactsSection']/div/div/div[1]/h2",
+	"contacts_link_homepage": "//*[@id='contactsSection']/div/div/div[2]/a[1]",
+	"contacts_mail_to": "//*[@id='contactsSection']/div/div/div[2]/a[2]",
+	"contacts_fb": "//*[@id='contactsSection']/div/div/div[1]/div/a[1]",
+	"contacts_telegram": "//*[@id='contactsSection']/div/div/div[1]/div/a[2]",
+	"contacts_youtube": "//*[@id='contactsSection']/div/div/div[1]/div/a[3]",
+	"contacts_instagram": "//*[@id='contactsSection']/div/div/div[1]/div/a[4]",
+	"contacts_linkedin": "//*[@id='contactsSection']/div/div/div[1]/div/a[5]",
+
+	# Footer
+	"footer_logo": "/html/body/app-root/app-global-layout/div/app-footer/footer/div/div/div[2]",\
+}
+
+# CSS 
+
+CSS_LOCATORS = {
+
+	# Header
+	"header_logo": "body > app-root > app-global-layout > div > div > app-header > header > div > div > div.header_left.d-flex.align-items-center > a",
+	"header_home": "body > app-root > app-global-layout > div > div > app-header > header > div > div > div.header_left.d-flex.align-items-center > nav > a",
+	"header_about": "body > app-root > app-global-layout > div > div > app-header > header > div > div > div.header_left.d-flex.align-items-center > nav > button:nth-child(2)",
+	"header_contacts": "body > app-root > app-global-layout > div > div > app-header > header > div > div > div.header_left.d-flex.align-items-center > nav > button:nth-child(3)",
+	"header_guest_log_in": "body > app-root > app-global-layout > div > div > app-header > header > div > div > div.header_right.d-flex.align-items-center > button.header-link.-guest",
+	"header_btn_sign_in": "body > app-root > app-global-layout > div > div > app-header > header > div > div > div.header_right.d-flex.align-items-center > button.btn.btn-outline-white.header_signin",
+
+	# Section Hero
+	"sign_up": "body > app-root > app-global-layout > div > div > div > app-guest-layout > div > app-home > section > div > div > div.col-12.col-lg-4 > div > button",
+
+	# Modal Window (Registration)
+	"modal_window_header": "body > ngb-modal-window > div > div > app-signup-modal > div.modal-header",
+	"modal_title": "body > ngb-modal-window > div > div > app-signup-modal > div.modal-header > h4",
+	"modal_close_btn": "body > ngb-modal-window > div > div > app-signup-modal > div.modal-header > button",
+	"modal_name_input": "#signupName",
+	"modal_last_name_input": "#signupLastName",
+	"modal_email": "#signupEmail",
+	"modal_password": "#signupPassword",
+	"modal_re_enter_password": "#signupRepeatPassword",
+	"modal_sign_up_btn": "body > ngb-modal-window > div > div > app-signup-modal > div.modal-footer > button",
+
+	# Contacts
+	"contacts_header": "#contactsSection > div > div > div.col-md-6.d-flex.flex-column.align-items-center.align-items-md-start > h2",
+	"contacts_link_homepage": "#contactsSection > div > div > div.col-md-6.d-flex.flex-column.align-items-center.align-items-md-end.justify-content-md-end.mb-2.mt-3.mt-md-0 > a.contacts_link.display-4",
+	"contacts_mail_to": "#contactsSection > div > div > div.col-md-6.d-flex.flex-column.align-items-center.align-items-md-end.justify-content-md-end.mb-2.mt-3.mt-md-0 > a.contacts_link.h4",
+	"contacts_fb": "#contactsSection > div > div > div.col-md-6.d-flex.flex-column.align-items-center.align-items-md-start > div > a:nth-child(1)",
+	"contacts_telegram": "#contactsSection > div > div > div.col-md-6.d-flex.flex-column.align-items-center.align-items-md-start > div > a:nth-child(2)",
+	"contacts_youtube": "#contactsSection > div > div > div.col-md-6.d-flex.flex-column.align-items-center.align-items-md-start > div > a:nth-child(3)",
+	"contacts_instagram": "#contactsSection > div > div > div.col-md-6.d-flex.flex-column.align-items-center.align-items-md-start > div > a:nth-child(4)",
+	"contacts_linkedin": "#contactsSection > div > div > div.col-md-6.d-flex.flex-column.align-items-center.align-items-md-start > div > a:nth-child(5)",
+
+	# Footer
+	"footer_logo": "body > app-root > app-global-layout > div > app-footer > footer > div > div > div.col.footer_item.-right > a",
+}
